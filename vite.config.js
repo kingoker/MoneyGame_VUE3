@@ -9,7 +9,8 @@ export default defineConfig({
     vue(),
   ],
   build: {
-    base: '/название-репозитория/',
+    base: '/MoneyGame_VUE3/',
+    chunkSizeWarningLimit: 160000000,
   },
   resolve: {
     alias: {
