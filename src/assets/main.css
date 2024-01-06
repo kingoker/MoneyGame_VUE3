@@ -1,0 +1,16 @@
+@import './base.css';
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container{
+    margin: 0px 30px;
+}
+
+/* поле броска кубика */
+#dice-floor canvas {
+    width: 100%;
+    height: 100%;
+}
